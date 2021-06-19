@@ -1,140 +1,75 @@
 <!doctype html>
-<html>
+<html lang="ch">
 <head>
 <meta charset="utf-8">
-<title>表单</title>
+<title>期末网页</title>
+	<link href="css.css" rel="stylesheet" type="text/css">
 </head>
-	<style>
-		*{padding: 0;
-		  margin: 0}
-		a{text-decoration:none}
-		li{list-style:none}
-		body{
-			 background-image:url("./201918340434-zhangwenhao-1204.jpg");/*背景图片*/
-		     background-repeat: no-repeat;                               /*背景图片一张*/
-		     background-size: 100%;                                      /*背景图片占比*/
-		     background-position: 0px                                    /*背景图片起始位置*/
-		}
-		.h2{
-			margin-left: 120px                                           /*用户登录大字*/
-		}                                 
-		.bg{
-			width: 500px;                                                /*登录框大小*/
-		    height: 450px;
-		    background-color:rgba(225,225,225,0.2);                      /*登录框颜色*/ 
-		    margin-left: 550px;                                          /*登录框距左边界*/
-		    margin-top: 100px;                                           /*登录框距上边界*/
-		    }
-		.login{
-			padding-top: 40px;                                           /*登录内容距框上边界*/
-		       margin-left: 100px;                                       /*登录内容距左边界*/
-		       float: left                                               /*登录内容排在左侧*/
-		}                                             
-		.userimg{
-			     height: 30px;                                            /*账号头像大小*/
-			     float: left;                                             /*账号头像左侧排列*/
-			     margin-top:-2px
-			    }
-		.pwdimg{
-			    height: 30px;                                             /*输入密码图像大小*/
-		        float: left ;                                              /*输入密码图像左侧排列*/
-			    margin-top:-2px;
-			    margin-left:3px
-		       }
-		.forpwdimg{
-			       height: 23px;                                          /*忘记密码图像大小*/
-		           float: left                                            /*忘记密码图像左侧排列*/
-		          }
-		.pwdlnp,
-		.userlnp{
-			     width: 215px;                                           /*输入密码，账号框大小*/
-			     height:25px ;                                      
-			     border: 0;                                              /*输入密码，账号框边线*/                 background: none;                                      /*输入密码，账号框无背景*/
-		         display: block;                                         /*输入密码，账号框一体*/
-		         margin: -25px;                                          /*输入密码，账号框距边界*/
-			     margin-left:45px;                                       /*输入密码，账号框距左边界*/
-			     text-align: center;                                     /*输入密码，账号框文字居中*/
-			     border:1.5px solid #c8d6e5;                             /*输入密码，账号框边线样式*/
-			     padding: 5px;                                           /*输入密码，账号框距盒子距离*/
-			     color: #ffffff;                                         /*输入密码，账号框颜色*/
-			     border-radius: 25px;                                    /*输入密码，账号框边框圆角度数*/
-			     transition: 0.25s;
-			     }  
-		.for-reg{
-			    border: none;                                             /*忘记密码框无边线*/
-			    line-height: 25px;                                        /*忘记密码框高度*/                       color: #3971F9;                                           /*忘记密码框颜色*/
-			    font-size: 20px;                                          /*忘记密码字大小*/
-			    font-weight: bold;
-		       }
-		.deng{width: 300px;                                               /*登录小框大小*/
-			  height: 30px;                                               
-			  background: #2B9EFF;                                        /*登录小框背景颜色*/
-			  border: 1px solid #2B9EFF;                                  /*登录小框边线*/
-			  color: aliceblue;                                          /*登录小框边线*/
-			  font-size: 15px;                                            /*登录小框字体大小*/
-			  }
-		.tui{width: 300px;                                                /*退出小框大小*/
-			  height: 30px; 
-			  background: #2B9EFF;                                        /*退出小框背景颜色*/
-			  border: 1px solid #2B9EFF;                                  /*退出小框边线*/
-			  color: aliceblue;                                           /*退出小框边线*/
-			  font-size: 15px;                                            /*退出小框字体大小*/
-			  
-			  }
-		.reg{margin-left: 100px;                                          /*注册距左边线*/
-		     color: #3971F9}                                              /*注册链接颜色*/
-		.forpwdlink{color:#3971F9 }                                       /*忘记密码链接颜色*/
-		#footer { 
-                 height:80px;                                              /*页脚高度*/
-                 line-height: 70px;                                        /*行高*/
-                 position: fixed;                                          /*定位*/
-                 bottom: 0;                                                /*底部距离*/
-                 width: 100%;                                              /*宽度占比*/
-                 text-align: center;                                       /*居中*/
-                 background: #E4E3E3;                                      /*背景颜色*/
-                 color:#676666;                                            /*文字颜色*/
-                 font-family: Arial;                                       /*文字形式*/
-                 font-size: 18px;                                          /*文字大小*/
-                 letter-spacing: 2px;                                      /*文字间距*/
-                 }
-
-           </style>
 
 <body>
-	<div>
-		<div class="bg"> <!--登录背景框架-->
-			<div class="login">   <!--登录背景小框架-->
-		<h2 class="h2">用户登录</h2><br><br> <!--用户登录字体-->
-	   
-		
-		 <img class="userimg" src="./201918340434-zhangwenhao-1202.png" alt="头像">&nbsp; <!--账号头像-->
-	     <input class="userlnp" type="text" placeholder="请输入账号"><br><br>              <!--账号框-->
-		 <br>
-		
-	     <img class="pwdimg" src="./201918340434-zhangwenhao-1205.png" alt="密码">&nbsp;   <!--密码图像-->
-	     <input class="pwdlnp" type="password" placeholder="请输入密码"><br><br>             <!--密码框-->
-			<br>
 	
-	<div class="for-reg">    <!--忘记密码框架-->
-		<img class="forpwdimg" src="./201918340434-zhangwenhao-1203.png" alt="忘记密码">&nbsp;<!--忘记密码图像-->
-		<a class="forpwdlink" href="">忘记密码</a>                 <!--忘记密码链接-->
-		<a class="reg" href="201918340434-zhangwenhao-1206.html">立即注册</a>                        <!--立即注册框架-->
-				</div><br>
-				<button class="deng">登录</button><br><br>         <!--登录按钮-->
-				<button class="tui">退出</button><br><br>          <!--退出按钮-->
-			
-		    
-		
-		
-	  </div>
-	 </div>
+   <div class="head">
+	   
+	  <img src="./1111.png" alt="书籍是人类进步的阶梯" class="logo" > <!--logo-->
+	   
+   </div>
+
+	
+	<div class="nav"> <!--导航栏姓名-->
+
+<ul>
+
+<li><a href="">网站首页</a></li><!--网站首页-->
+
+<li><a href="">高考数据</a>  
+
+<ul>
+
+<li><a href="" style="font-size: 16px">近三年全国高考人数统计</a></li>
+<li><a href="" style="font-size: 16px">近三年全国各省高考报名情况</a></li>
+<li><a href="" style="font-size: 16px">全国各省一本上线率参差</a></li>
+<li><a href="" style="font-size: 16px">各省985院校平均上线率</a></li>
+<li><a href="" style="font-size: 16px">总结</a></li>
+
+</ul>
+</li>
+
+<li><a href="">企业校招数据</a>
+<ul>
+<li><a href="" style="font-size: 16px">百强企业校招最爱大学排行榜</a></li>
+<li><a href="" style="font-size: 16px">最爱大学名校比例</a></li>
+<li><a href="" style="font-size: 16px">城市吸引人才政策</a></li>
+</ul>
+</li>
+
+<li><a href="">行业精英</a>
+<ul>
+<li><a href="" style="font-size: 16px">政界：习近平</a></li>
+<li><a href="" style="font-size: 16px">商界：刘强东，任正非</a></li>
+<li><a href="" style="font-size: 16px">综艺：撒贝宁，杨和苏</a></li>
+
+</ul>
+</li>
+
+
+<li><a href="">国民文化程度</a>
+<ul>
+<li><a href="" style="font-size: 16px">近年本科毕业人数</a></li>
+<li><a href="" style="font-size: 16px">近年本科毕业生占比</a></li>
+<li><a href="" style="font-size: 16px">近年研究生毕业人数</a></li>
+</ul>
+</li>
+
+	
+<li><a href="">留言</a>
+	
+	</li>
+	</ul>
 	</div>
 	
-       <div id="footer">2559270886@qq.com&nbsp;|&nbsp;               <!--页脚内容-->
-		                作者：zwh&nbsp;|&nbsp;
-                        时间：2021-05-27&nbsp;|&nbsp;
-                        描述：西华师范大学新闻传播学院网络与新媒体4班
-       </div>
+	<table class="big"></table>
+		
+
 
 </body>
 </html>
